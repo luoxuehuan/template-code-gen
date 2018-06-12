@@ -40,3 +40,10 @@
             * 右上窗口会列出所有模板文件
             * 点“确定”，渲染的结果和日志在与原模板目录同级，后缀“_target”的目录中
     4. 项目用的模板可以放在template目录下
+
+# 备注
+
+    1.如果遇到报错：
+    Exception in thread "main" org.eclipse.swt.SWTException: Invalid thread access
+    程序启动加上如下虚拟机命令：
+    -XstartOnFirstThread 
